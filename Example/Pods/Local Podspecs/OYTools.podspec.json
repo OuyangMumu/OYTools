@@ -1,0 +1,22 @@
+{
+  "name": "OYTools",
+  "version": "0.1.0",
+  "summary": "A short description of OYTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/804716454@qq.com/OYTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "804716454@qq.com": "804716454@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/804716454@qq.com/OYTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OYTools/Classes/**/*"
+}

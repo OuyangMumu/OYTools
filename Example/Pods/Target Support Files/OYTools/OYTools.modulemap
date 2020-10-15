@@ -1,0 +1,6 @@
+framework module OYTools {
+  umbrella header "OYTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
