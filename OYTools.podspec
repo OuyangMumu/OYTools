@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OYTools'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '一个iOS开发者私人日常工作库'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/OuyangMumu/OYTools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'OuyangMumu' => '804716454@qq.com' }
+  s.author           = { 'OuyangMumu' => 'ouyangg034@gmail.com' }
   s.source           = { :git => 'https://github.com/OuyangMumu/OYTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
