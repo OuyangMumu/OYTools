@@ -1,22 +1,22 @@
 {
   "name": "OYTools",
   "version": "0.1.0",
-  "summary": "A short description of OYTools.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/804716454@qq.com/OYTools",
+  "summary": "一个iOS开发者私人日常工作库",
+  "description": "一个iOS开发者私人日常工作库, 不定期维护更新",
+  "homepage": "https://github.com/OuyangMumu/OYToos",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "804716454@qq.com": "804716454@qq.com"
+    "OuyangMumu": "804716454@qq.com"
   },
   "source": {
-    "git": "https://github.com/804716454@qq.com/OYTools.git",
+    "git": "https://github.com/OuyangMumu/OYToos.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source_files": "OYTools/Classes/**/*"
 }

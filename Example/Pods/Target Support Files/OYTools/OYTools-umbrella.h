@@ -11,6 +11,7 @@
 #endif
 
 #import "NSDate+Category.h"
+#import "NSDateFormatter+Category.h"
 
 FOUNDATION_EXPORT double OYToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char OYToolsVersionString[];
