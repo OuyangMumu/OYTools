@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		100E9A42EE00EBF81095203A7AA4F7B8 /* OYTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26EE1943CFB9AB6748CB98642C706030 /* OYTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E9D657F127116AD39347DBC942875DA /* OYTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2755703BC1A42C0061BA41D0A6361707 /* OYTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		370817CB35278287487333D598BADE54 /* OYTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C13C4427857F6BE4875044ACA50D0E /* OYTools-dummy.m */; };
+		44892A799534270FD72BE311CC51D37B /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F875340C1AC768352D81313DC20A0E02 /* NSDate+Category.m */; };
 		48C39516466AD5780D56C91350A6F576 /* Pods-OYTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B77A7CD2EB067734313A3728D2E74C85 /* Pods-OYTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5649F9B6BE3267250F65BB425D4B33F0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E30F09B22E01D09913195B0FB102BEA /* ReplaceMe.m */; };
 		6D24A225E3C9E24301585782D3323478 /* Pods-OYTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86413408E28383FF4910EB9BBB588264 /* Pods-OYTools_Tests-dummy.m */; };
 		80BD5C8714FF8CDEA5D7D63CE1629212 /* Pods-OYTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BB08EFCA1BA65203E7EB28CBA8FBCB /* Pods-OYTools_Example-dummy.m */; };
 		87B8FB883D2FB4C4270C2A2DA85E4AB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8E37C697904100FE300FADE5E39FE726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		984297759DAFC666AD5AF097887D3310 /* OYTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A79D91DA70726A39BF11EED2C713B559 /* OYTools-dummy.m */; };
 		A0D25B887E000702CDDA2D475B4C59F3 /* Pods-OYTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39AC2DADD2887ABBD103D878EF5DB6FA /* Pods-OYTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B69273619B7B172A9976DF8810EEB44C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		BBD94158C39AC1B960C00224C30D721C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BED0B097B37C98D95C41D55475655A1B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEDC480C8F2477FB59CFA5F284DFBD /* ReplaceMe.m */; };
+		F9F5D332ED1478FEBBBCD3769CD00632 /* NSDate+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = D44EF0C8691A2DAE3B3C1FCA08D9E7A4 /* NSDate+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3D343DD7C909FB7509BBFC521E7B5040 /* PBXContainerItemProxy */ = {
+		0675E8BD600C3EE2731F8525DA9B0A36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2E780CFA18D39DB5042D03C4B5CCAB91;
 			remoteInfo = "Pods-OYTools_Example";
 		};
-		4CDB4A0B53F6A7E142BCEF1F509C81A6 /* PBXContainerItemProxy */ = {
+		5E2E385C2D6FD2A31649CE8BB7967626 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,39 +39,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0449DFD6A2820A32A203456EC5215498 /* OYTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OYTools.debug.xcconfig; sourceTree = "<group>"; };
 		117C010A12E944005154DFB273453DBB /* Pods-OYTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OYTools_Example-frameworks.sh"; sourceTree = "<group>"; };
-		18BEDC480C8F2477FB59CFA5F284DFBD /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OYTools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		1A52AC87EA5D08C17EB85ED28BF97880 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		17C58F9EC0ADE1A6AC1C8C80FD53A82B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1D0CBCB9A5CFAF71B564B8B4A37010F0 /* Pods-OYTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OYTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		26EE1943CFB9AB6748CB98642C706030 /* OYTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OYTools-umbrella.h"; sourceTree = "<group>"; };
+		2755703BC1A42C0061BA41D0A6361707 /* OYTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OYTools-umbrella.h"; sourceTree = "<group>"; };
+		2E30F09B22E01D09913195B0FB102BEA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OYTools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		39AC2DADD2887ABBD103D878EF5DB6FA /* Pods-OYTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OYTools_Example-umbrella.h"; sourceTree = "<group>"; };
 		414687055481DF028908635D409379C8 /* Pods-OYTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OYTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4AFF19B6F3D7EC9B75003CD127AA6041 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4FC64DAED316AE0BD2958A529E02A81C /* Pods-OYTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OYTools_Example.modulemap"; sourceTree = "<group>"; };
-		51266BE15769251F4A6954202B6D4466 /* OYTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OYTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		61534A825B588F4B107F76066D076CB1 /* OYTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OYTools.debug.xcconfig; sourceTree = "<group>"; };
-		65DFF2B2A889D4961D7C63CD9B08CE2F /* OYTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OYTools-Info.plist"; sourceTree = "<group>"; };
-		713C342EE9D36032F7A6BC0515F0E3B2 /* OYTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OYTools.modulemap; sourceTree = "<group>"; };
+		54C13C4427857F6BE4875044ACA50D0E /* OYTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OYTools-dummy.m"; sourceTree = "<group>"; };
+		5839E902D093284DE22A77C937462ED2 /* OYTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OYTools.modulemap; sourceTree = "<group>"; };
 		7911E9278851AF0D477764829EA08B9C /* Pods-OYTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OYTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E399A91B7FB97BD7B33B6A1AAAD37CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		863116911DE8A8A3CCBC04F4E2299835 /* OYTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OYTools-Info.plist"; sourceTree = "<group>"; };
 		86413408E28383FF4910EB9BBB588264 /* Pods-OYTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OYTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		86733109D656F1EC5B2AFD96B0CC1D41 /* OYTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OYTools-prefix.pch"; sourceTree = "<group>"; };
+		8C12F282D356DB349544828E7B33829F /* OYTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OYTools-prefix.pch"; sourceTree = "<group>"; };
 		996BA718FBDE802621596F824AEAA040 /* Pods-OYTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OYTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EFDF6DB879E9579FCE21A455A105C81 /* Pods-OYTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OYTools_Tests-Info.plist"; sourceTree = "<group>"; };
 		A34511E52AB1FC3D58902622C3E11ADA /* Pods-OYTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OYTools_Example-Info.plist"; sourceTree = "<group>"; };
-		A79D91DA70726A39BF11EED2C713B559 /* OYTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OYTools-dummy.m"; sourceTree = "<group>"; };
 		AEFDA725991221D084BBB3329490F215 /* Pods-OYTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OYTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AEFF11B237F3A21B8D4BDCA2354FC34C /* Pods_OYTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OYTools_Tests.framework; path = "Pods-OYTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77A7CD2EB067734313A3728D2E74C85 /* Pods-OYTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OYTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BDBC91BC6A322F4DC9CB43A01E0B34F5 /* OYTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OYTools.framework; path = OYTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0DC03BBAEB1B6B10DEBCC8428B9733 /* Pods-OYTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OYTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D0490988BCA614624CE08CF5227C9946 /* Pods_OYTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OYTools_Example.framework; path = "Pods-OYTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44EF0C8691A2DAE3B3C1FCA08D9E7A4 /* NSDate+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Category.h"; path = "OYTools/Classes/NSDate+Category.h"; sourceTree = "<group>"; };
 		D4BB08EFCA1BA65203E7EB28CBA8FBCB /* Pods-OYTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OYTools_Example-dummy.m"; sourceTree = "<group>"; };
-		DAD9B78B0173B86596F965F4DFA1CD73 /* OYTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OYTools.release.xcconfig; sourceTree = "<group>"; };
 		E11725B099D04BC62097F4E48AE9538F /* Pods-OYTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OYTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E141FD4C47CA0B1B10207DA3D3A4CC86 /* Pods-OYTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OYTools_Tests.modulemap"; sourceTree = "<group>"; };
+		E3534D8E90F451434542760994A72696 /* OYTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OYTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E8A6F84E88F463110596D854ACC36755 /* Pods-OYTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OYTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0113561BE042FEA3E3CC384AD83FE45 /* OYTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OYTools.release.xcconfig; sourceTree = "<group>"; };
+		F875340C1AC768352D81313DC20A0E02 /* NSDate+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Category.m"; path = "OYTools/Classes/NSDate+Category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +85,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67694808B34113F27C0236EE01301A34 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8E37C697904100FE300FADE5E39FE726 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7D291929DAD181208B4FC3340F2F2C28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,28 +93,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7BED830937F165C6AA5C4B1016A6EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69273619B7B172A9976DF8810EEB44C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		477F516952A68EAE080D7B339B751E5B /* OYTools */ = {
+		360DF7C854300035AA3635A609CD343A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				18BEDC480C8F2477FB59CFA5F284DFBD /* ReplaceMe.m */,
-				5A480DB3AEB221BDD00045EACD0B969F /* Pod */,
-				97D2283BCF30A51A9BC21C0F5DE6B476 /* Support Files */,
+				4EB7C542930BF2797F1616BFB3723EAF /* OYTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4EB7C542930BF2797F1616BFB3723EAF /* OYTools */ = {
+			isa = PBXGroup;
+			children = (
+				D44EF0C8691A2DAE3B3C1FCA08D9E7A4 /* NSDate+Category.h */,
+				F875340C1AC768352D81313DC20A0E02 /* NSDate+Category.m */,
+				2E30F09B22E01D09913195B0FB102BEA /* ReplaceMe.m */,
+				8C6AA4C5BCDDC6D73E772C61A43B5757 /* Pod */,
+				BEF5EBFCC54A7B41EB6DBAD46508FF9C /* Support Files */,
 			);
 			name = OYTools;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		5A480DB3AEB221BDD00045EACD0B969F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1A52AC87EA5D08C17EB85ED28BF97880 /* LICENSE */,
-				51266BE15769251F4A6954202B6D4466 /* OYTools.podspec */,
-				4AFF19B6F3D7EC9B75003CD127AA6041 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		5F46AC8FECB5FC8051861880D234DD64 /* Targets Support Files */ = {
@@ -146,16 +150,26 @@
 			path = "Target Support Files/Pods-OYTools_Tests";
 			sourceTree = "<group>";
 		};
-		97D2283BCF30A51A9BC21C0F5DE6B476 /* Support Files */ = {
+		8C6AA4C5BCDDC6D73E772C61A43B5757 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				713C342EE9D36032F7A6BC0515F0E3B2 /* OYTools.modulemap */,
-				A79D91DA70726A39BF11EED2C713B559 /* OYTools-dummy.m */,
-				65DFF2B2A889D4961D7C63CD9B08CE2F /* OYTools-Info.plist */,
-				86733109D656F1EC5B2AFD96B0CC1D41 /* OYTools-prefix.pch */,
-				26EE1943CFB9AB6748CB98642C706030 /* OYTools-umbrella.h */,
-				61534A825B588F4B107F76066D076CB1 /* OYTools.debug.xcconfig */,
-				DAD9B78B0173B86596F965F4DFA1CD73 /* OYTools.release.xcconfig */,
+				7E399A91B7FB97BD7B33B6A1AAAD37CD /* LICENSE */,
+				E3534D8E90F451434542760994A72696 /* OYTools.podspec */,
+				17C58F9EC0ADE1A6AC1C8C80FD53A82B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BEF5EBFCC54A7B41EB6DBAD46508FF9C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5839E902D093284DE22A77C937462ED2 /* OYTools.modulemap */,
+				54C13C4427857F6BE4875044ACA50D0E /* OYTools-dummy.m */,
+				863116911DE8A8A3CCBC04F4E2299835 /* OYTools-Info.plist */,
+				8C12F282D356DB349544828E7B33829F /* OYTools-prefix.pch */,
+				2755703BC1A42C0061BA41D0A6361707 /* OYTools-umbrella.h */,
+				0449DFD6A2820A32A203456EC5215498 /* OYTools.debug.xcconfig */,
+				F0113561BE042FEA3E3CC384AD83FE45 /* OYTools.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/OYTools";
@@ -186,19 +200,11 @@
 			path = "Target Support Files/Pods-OYTools_Example";
 			sourceTree = "<group>";
 		};
-		CED1F697F98455AD0717EE59025F7CC4 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				477F516952A68EAE080D7B339B751E5B /* OYTools */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CED1F697F98455AD0717EE59025F7CC4 /* Development Pods */,
+				360DF7C854300035AA3635A609CD343A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				E2296E4DDB619C17C518F83B8E0EC0FE /* Products */,
 				5F46AC8FECB5FC8051861880D234DD64 /* Targets Support Files */,
@@ -226,19 +232,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		027F5105BE9814EFB7216371657D415A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				100E9A42EE00EBF81095203A7AA4F7B8 /* OYTools-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		34DFCA83AD7575E2F639E85539351F6A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A0D25B887E000702CDDA2D475B4C59F3 /* Pods-OYTools_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365B271B30B2B49539AFB8577396B7AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F5D332ED1478FEBBBCD3769CD00632 /* NSDate+Category.h in Headers */,
+				1E9D657F127116AD39347DBC942875DA /* OYTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +262,12 @@
 /* Begin PBXNativeTarget section */
 		005026761C95CEE8897DCBA9A53D1975 /* OYTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B197542DBF876B8C07A2951AFF080B81 /* Build configuration list for PBXNativeTarget "OYTools" */;
+			buildConfigurationList = 68199CEA1A674D3B7E952B9E9976573D /* Build configuration list for PBXNativeTarget "OYTools" */;
 			buildPhases = (
-				027F5105BE9814EFB7216371657D415A /* Headers */,
-				517B2FFF2F3BC9D79233EB1F8B24E5D9 /* Sources */,
-				67694808B34113F27C0236EE01301A34 /* Frameworks */,
-				9248D530E86B14289BF2A7A601D5E0A9 /* Resources */,
+				365B271B30B2B49539AFB8577396B7AE /* Headers */,
+				7EC06CBB7A073B127FDFF18DF77BF6E6 /* Sources */,
+				C7BED830937F165C6AA5C4B1016A6EAE /* Frameworks */,
+				7F9B4FCEE1878F2DDBD1C7F3DDDF9005 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +290,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				04C32762A8A42387E38C3B2B8704FEF5 /* PBXTargetDependency */,
+				7DB6936C243D54486CECE400DCCFA80B /* PBXTargetDependency */,
 			);
 			name = "Pods-OYTools_Example";
 			productName = "Pods-OYTools_Example";
@@ -302,7 +309,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CC460630EFBA0959A704D70494C182A2 /* PBXTargetDependency */,
+				C1447CBFB6B7E1A3FA74BE63D7C14562 /* PBXTargetDependency */,
 			);
 			name = "Pods-OYTools_Tests";
 			productName = "Pods-OYTools_Tests";
@@ -353,7 +360,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9248D530E86B14289BF2A7A601D5E0A9 /* Resources */ = {
+		7F9B4FCEE1878F2DDBD1C7F3DDDF9005 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,12 +370,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		517B2FFF2F3BC9D79233EB1F8B24E5D9 /* Sources */ = {
+		7EC06CBB7A073B127FDFF18DF77BF6E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				984297759DAFC666AD5AF097887D3310 /* OYTools-dummy.m in Sources */,
-				BED0B097B37C98D95C41D55475655A1B /* ReplaceMe.m in Sources */,
+				44892A799534270FD72BE311CC51D37B /* NSDate+Category.m in Sources */,
+				370817CB35278287487333D598BADE54 /* OYTools-dummy.m in Sources */,
+				5649F9B6BE3267250F65BB425D4B33F0 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,24 +399,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		04C32762A8A42387E38C3B2B8704FEF5 /* PBXTargetDependency */ = {
+		7DB6936C243D54486CECE400DCCFA80B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OYTools;
 			target = 005026761C95CEE8897DCBA9A53D1975 /* OYTools */;
-			targetProxy = 4CDB4A0B53F6A7E142BCEF1F509C81A6 /* PBXContainerItemProxy */;
+			targetProxy = 5E2E385C2D6FD2A31649CE8BB7967626 /* PBXContainerItemProxy */;
 		};
-		CC460630EFBA0959A704D70494C182A2 /* PBXTargetDependency */ = {
+		C1447CBFB6B7E1A3FA74BE63D7C14562 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-OYTools_Example";
 			target = 2E780CFA18D39DB5042D03C4B5CCAB91 /* Pods-OYTools_Example */;
-			targetProxy = 3D343DD7C909FB7509BBFC521E7B5040 /* PBXContainerItemProxy */;
+			targetProxy = 0675E8BD600C3EE2731F8525DA9B0A36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		285570C37D28FF6E6B986CD69FD2E211 /* Debug */ = {
+		15A64641878CA3615067FD9A185A4943 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61534A825B588F4B107F76066D076CB1 /* OYTools.debug.xcconfig */;
+			baseConfigurationReference = 0449DFD6A2820A32A203456EC5215498 /* OYTools.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -629,38 +637,6 @@
 			};
 			name = Release;
 		};
-		8C42D540557D5998F0F1749027EC33AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAD9B78B0173B86596F965F4DFA1CD73 /* OYTools.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OYTools/OYTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OYTools/OYTools-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OYTools/OYTools.modulemap";
-				PRODUCT_MODULE_NAME = OYTools;
-				PRODUCT_NAME = OYTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		C37EA5849A5E15106E7E1A780C120696 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 996BA718FBDE802621596F824AEAA040 /* Pods-OYTools_Example.debug.xcconfig */;
@@ -693,6 +669,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		F36AB3D96D392DB28A8604D12E29B369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0113561BE042FEA3E3CC384AD83FE45 /* OYTools.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OYTools/OYTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OYTools/OYTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OYTools/OYTools.modulemap";
+				PRODUCT_MODULE_NAME = OYTools;
+				PRODUCT_NAME = OYTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		FFEFEC68103B2F16B0C505A2335355E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -748,20 +756,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		68199CEA1A674D3B7E952B9E9976573D /* Build configuration list for PBXNativeTarget "OYTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A64641878CA3615067FD9A185A4943 /* Debug */,
+				F36AB3D96D392DB28A8604D12E29B369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A1F05902CADD77B762C8A4DE5FD8A471 /* Build configuration list for PBXNativeTarget "Pods-OYTools_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C37EA5849A5E15106E7E1A780C120696 /* Debug */,
 				6004C427B33264C9566F671AFE6F2897 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B197542DBF876B8C07A2951AFF080B81 /* Build configuration list for PBXNativeTarget "OYTools" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				285570C37D28FF6E6B986CD69FD2E211 /* Debug */,
-				8C42D540557D5998F0F1749027EC33AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
