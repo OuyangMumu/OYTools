@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'OYTools'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of OYTools.'
+  s.summary          = '一个iOS开发者私人日常工作库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,18 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '一个iOS开发者私人日常工作库, 不定期维护更新'
 
-  s.homepage         = 'https://github.com/804716454@qq.com/OYTools'
+  s.homepage         = 'https://github.com/OuyangMumu/OYToos'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '804716454@qq.com' => '804716454@qq.com' }
-  s.source           = { :git => 'https://github.com/804716454@qq.com/OYTools.git', :tag => s.version.to_s }
+  s.author           = { 'OuyangMumu' => '804716454@qq.com' }
+  s.source           = { :git => 'https://github.com/OuyangMumu/OYToos.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'OYTools/Classes/**/*'
   
